@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom'
-import styles from './Header.module.css'
-import { useState } from 'react'
+import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
+import { useState } from 'react';
 
 function Header(){
-    const [showMenu, setShowMenu] = useState(false)
+    const [showMenu, setShowMenu] = useState(false);
     const toggleMenu = () => {
-        setShowMenu(!showMenu)
-    }
+        setShowMenu(!showMenu);
+    };
     return(
         <header className={styles.header}>
             <Link to="/">
@@ -30,6 +30,6 @@ function Header(){
                 <span className={styles.linha}></span>    
             </div>
         </header>
-    )
+    );
 } 
-export default Header
+export default Header;

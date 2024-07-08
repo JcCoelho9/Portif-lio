@@ -3,10 +3,12 @@
     min-width: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-block: 1.5rem;
 }
 .home img {
     height: 500px;
+    
 }
 .home p {
     font-size: 3rem; /* equivalente a 48px */
@@ -35,4 +37,22 @@
 }
 .btn_red:hover {
     background-color: var(--primary);
+}
+
+@media(max-width: 768px){
+    .home{
+        flex-direction: column; 
+        justify-content: space-evenly;       
+    }
+   
+}
+@media(max-width: 480px){
+    .home p{
+        font-size: 1.5rem;
+    }
+    .home img{
+        max-width: 100%;
+        height: auto;
+        padding-inline: 2.5rem;
+    }
 }

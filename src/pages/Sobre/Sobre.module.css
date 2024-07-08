@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;    
     justify-content: center;
-    
+    margin-top: 1.5rem;
 }
 .textos h2, p{
     margin-bottom: 0.5rem;
