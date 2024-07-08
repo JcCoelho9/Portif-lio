@@ -51,11 +51,7 @@
         width: 100%;
         height: 2px;
         background-color: white;
-    }
-
-    .menuSandwich {
-        display: none;
-    }
+    }  
 
     .show {
         display: flex;

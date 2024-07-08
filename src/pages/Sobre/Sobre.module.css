@@ -61,3 +61,29 @@
     font-weight: bold;
     margin: 0.5rem;
 }
+@media(max-width:768px) {
+    .bio {
+        margin-top: 240px;
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+        padding-top: 250px;
+    }
+    
+    .idiomas{
+        padding-bottom: 5rem;
+    }
+
+}
+@media(max-width:480px) {
+    .bio{
+        margin-top: 20rem;
+    }
+    .icones {
+        gap: .5rem;
+    }
+
+    .icones img {
+        height: 40px;
+    }
+}

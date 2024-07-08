@@ -52,7 +52,7 @@
     }
     .home img{
         max-width: 100%;
-        height: auto;
-        padding-inline: 2.5rem;
+        height: 20%;
+        padding-top: 2.5rem;
     }
 }
