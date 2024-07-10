@@ -91,3 +91,9 @@
       margin: .25rem; 
     }
 }
+@media(max-width:480px) {
+    .avatar{
+        margin-top: 23rem;
+    }
+}
+

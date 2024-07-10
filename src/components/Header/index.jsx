@@ -20,9 +20,8 @@ function Header() {
                 <Link to="/contatos" onClick={toggleMenu}>Contatos</Link>
             </nav>
             <div className={styles.menuButton} onClick={toggleMenu}>
-                <span className={styles.linha}></span>
-                <span className={styles.linha}></span>
-                <span className={styles.linha}></span>
+                <span className={styles.linha}></span>                
+                
             </div>
         </header>
     );
