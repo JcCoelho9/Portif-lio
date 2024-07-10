@@ -63,11 +63,11 @@
 }
 @media(max-width:768px) {
     .bio {
-        margin-top: 240px;
+        margin-top: 70px;
         flex-direction: column;
         padding-inline: 20px;
         gap: 1rem;
-        padding-top: 250px;
+        padding-top: 70px;
     }
     
     .idiomas{
@@ -77,13 +77,17 @@
 }
 @media(max-width:480px) {
     .bio{
-        margin-top: 20rem;
+        margin-top: 18rem;
+        
     }
     .icones {
         gap: .5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .icones img {
-        height: 40px;
+      height: 40px;
+      margin: .25rem; 
     }
 }
