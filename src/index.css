@@ -1,13 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
-  font-family: Fira Code; 
+  font-family: Hind Siliguri; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --primary: #16213E;
-  --secondary: #0F3460;
-  --terceary: #533483;
-  --red: #E94560;
+  --primary: #1f0a99;
+  --secondary: #3f348b;
+  --terceary: #193C38;
+  --red: #C62828;
   --soft-white: #f1f1f1;
   --white: #fefefe;
   --black: #111;
